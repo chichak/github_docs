@@ -1,0 +1,18 @@
+$ git branch
+* master
+ 
+$ git config --get remote.origin.url
+j'ai bien le bon répertoire distant
+ 
+$ git remote
+origin
+ 
+$ git checkout origin/master
+ici il m'affiche un vieu commit, pas le dernier (en fait il m'affiche bien le dernier commit visible sur github quoi).
+ 
+$ git checkout master
+Basculement sur la branche 'master'
+Votre branche est à jour avec 'origin/master'.
+ 
+$ git log
+il n'affiche pas non plus les derniers commit, juste tous ceux qui se sont bien passé
